@@ -1,7 +1,78 @@
-/* Add your CSS below */
-
-/* Example: adding a background color to the HTML body */
 body {
-  /* #ccc is shorthand HEX for a light grey */
-  background: #ccc;
+  background: linear-gradient(135deg, pink,white, white, pink);
+}
+.images{
+  float: left;;
+  width: 100%;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+.titles{
+  color: blue;
+}
+.recipeOne{
+  padding: 1%;
+  margin-top: 20px;
+  width: 30%;
+  float:left;
+  margin: 0.1%;
+  border:1px solid white;
+}
+.recipeTwo{
+  padding: 1%;
+  margin-top: 20px;
+  width: 30%;
+  float:left;
+  margin: 1%;
+  border:1px solid white;
+}
+.recipeThree{
+  padding: 1%;
+  margin-top: 20px;
+  width: 30%;
+  float:left;
+  margin: 0.1%;
+  border:1px solid white;
+}
+a {
+  color: yellow;
+}
+.btn {
+  width: 30%;
+  border-radius: 20%;
+  box-shadow: 10px;
+  background: linear-gradient(135deg, red, blue);
+}
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+        font-size: 12px;
+    }
+    .recipeOne{
+      padding: 1%;
+      margin-top: 20px;
+      width: 30%;
+      float:right;
+      border:1px solid blue;
+    }
+    .recipeTwo{
+      padding: 1%;
+      margin-top: 20px;
+      width: 30%;
+      float:left;
+      border:1px solid blue;
+    }
+    .recipeThree{
+      padding: 1%;
+      margin-top: 20px;
+      width: 30%;
+      float:right;
+      border:1px solid blue;
+    }
+    images{
+      float: left;;
+      width: 70%;
+      margin-right: 20px;
+      margin-bottom: 40px;
+    }
 }
